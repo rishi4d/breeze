@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="20451bb0-7d4c-4d3e-aefe-fc9fb9485ebb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE">
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="c4d1e06f-5dfa-4cb0-9dc4-be009b1faac6" name="server" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1nvqb70LMq5CsUAwyEbwua1ul8g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../php/php.exe" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="PHP Script.main.php">
+    <configuration name="main.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/windy/main.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/main.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.main.php" />
+        <item itemvalue="JavaScript Debug.main.php" />
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20451bb0-7d4c-4d3e-aefe-fc9fb9485ebb" name="Default Changelist" comment="" />
+      <created>1612280980341</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612280980341</updated>
+      <workItem from="1612280981417" duration="5000" />
+      <workItem from="1612280998708" duration="330000" />
+      <workItem from="1612295319705" duration="3688000" />
+      <workItem from="1612365473427" duration="1109000" />
+      <workItem from="1612375584275" duration="4432000" />
+      <workItem from="1612418547432" duration="594000" />
+      <workItem from="1612470636840" duration="425000" />
+      <workItem from="1612543198171" duration="944000" />
+      <workItem from="1612550936373" duration="984000" />
+      <workItem from="1612599917428" duration="1224000" />
+      <workItem from="1612626663741" duration="4000" />
+      <workItem from="1612697235728" duration="643000" />
+      <workItem from="1612771434307" duration="3941000" />
+      <workItem from="1612859930450" duration="2174000" />
+      <workItem from="1612884845405" duration="594000" />
+      <workItem from="1612897343236" duration="1196000" />
+      <workItem from="1612941435844" duration="9526000" />
+      <workItem from="1612984812702" duration="7826000" />
+      <workItem from="1613029993394" duration="8401000" />
+      <workItem from="1613058586066" duration="9696000" />
+      <workItem from="1613146379592" duration="7161000" />
+      <workItem from="1613213484572" duration="594000" />
+      <workItem from="1613231825950" duration="8170000" />
+      <workItem from="1613248928058" duration="1687000" />
+      <workItem from="1613287077153" duration="5173000" />
+      <workItem from="1613293100506" duration="136000" />
+      <workItem from="1613293246714" duration="5581000" />
+      <workItem from="1613320925887" duration="10411000" />
+      <workItem from="1613410731537" duration="520000" />
+      <workItem from="1613412431492" duration="7496000" />
+      <workItem from="1613681069668" duration="8000" />
+      <workItem from="1613808013387" duration="4000" />
+      <workItem from="1613837077510" duration="12130000" />
+      <workItem from="1613894731387" duration="9867000" />
+      <workItem from="1614152993498" duration="845000" />
+      <workItem from="1614929247614" duration="1760000" />
+      <workItem from="1614976353311" duration="3000" />
+      <workItem from="1615099960180" duration="317000" />
+      <workItem from="1615127829956" duration="231000" />
+      <workItem from="1615749246445" duration="594000" />
+      <workItem from="1616658167297" duration="180000" />
+      <workItem from="1616658384984" duration="52000" />
+      <workItem from="1617003627204" duration="1196000" />
+      <workItem from="1617456701952" duration="26000" />
+      <workItem from="1618223108047" duration="182000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1612281206400</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612281206400</updated>
+    </task>
+    <task id="LOCAL-00002" summary="backend changes">
+      <created>1612296194985</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612296194985</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Connected with BackEnd. Client now recieves the current location data.">
+      <created>1613034428744</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613034428744</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ClientSide can now get updated with data sent by server.">
+      <created>1613040824717</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613040824717</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Windy Beta 0.8.">
+      <created>1613148337493</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613148337493</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Windy Beta 0.95">
+      <created>1613895048354</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613895048354</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Windy(Beta) 0.9.9.&#10;&#10;-&gt;Working as intended.&#10;-&gt;Some places are not supported due to support limitation from the Weather Service Provider.&#10;-&gt;There MIGHT be some bugs, that's why its a Beta version.&#10;&#10;This project is now ready for deployment.">
+      <created>1613924218952</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613924218952</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="backend changes" />
+    <MESSAGE value="Connected with BackEnd. Client now recieves the current location data." />
+    <MESSAGE value="ClientSide can now get updated with data sent by server." />
+    <MESSAGE value="Windy Beta 0.8." />
+    <MESSAGE value="Windy Beta 0.95" />
+    <MESSAGE value="Windy(Beta) 0.9.9.&#10;&#10;-&gt;Working as intended.&#10;-&gt;Some places are not supported due to support limitation from the Weather Service Provider.&#10;-&gt;There MIGHT be some bugs, that's why its a Beta version.&#10;&#10;This project is now ready for deployment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Windy(Beta) 0.9.9.&#10;&#10;-&gt;Working as intended.&#10;-&gt;Some places are not supported due to support limitation from the Weather Service Provider.&#10;-&gt;There MIGHT be some bugs, that's why its a Beta version.&#10;&#10;This project is now ready for deployment." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
