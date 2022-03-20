@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-	<!-- Windy 0.9.9 Beta -->
+	<!-- Breeze(Windy) 1.0 Beta -->
 <head>
-	<title>Windy</title>
+	<title>Breeze</title>
 
 	<!-- Style CSS -->
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -11,9 +11,11 @@
 </head>
 <body>
 <!-- Background Image -->
-	<div class="bg"></div>
+	<div class="bg">
+        <div class="blur"></div>
+    </div>
     <div class="header">
-        <h1>Windy</h1>
+        <h1>Breeze</h1>
 	</div>
 	
 	<div class="search">
@@ -30,7 +32,7 @@
 		<!-- Weather Widget -->
 		<div class="widget">
 			<div class="left">
-				<img src="images/cloud.svg" class="icon">
+				<img src="res/cloud.svg" class="icon">
 				<h5 id="state" class="weather-status">Partly Cloudy</h5>
 			</div>
 			<div class="right">
@@ -82,7 +84,7 @@
         </div>
     </div>
     <div class="footer">
-    	<h2>Hello! I am Windy</h2>
+    	<h2>Breeze</h2>
         <h2>your weather assistant, just ask me and get weather forcasts as fast as wind</h2>
 	</div>
 	

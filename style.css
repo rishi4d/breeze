@@ -9,18 +9,26 @@ body, html{
 }
 
 .bg{
-	background-image: url("images/bg.jpg");
+	background-image: url("res/images/bg-default.jpg");
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	filter: blur(10px);
-	-webkit-filter: blur(10px);
+	backdrop-filter: blur(10px);
+}
+
+
+@supports (backdrop-filter: none) {
+	.blur {
+		backdrop-filter: blur(20px);
+		height: 100%;
+	}
 }
 
 .header{
     top: 8%;
 	left: 50%;
+	font-size: larger;
     position: absolute;
 	transform: translate(-50%, -50%);
 }
