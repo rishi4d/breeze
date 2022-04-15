@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20451bb0-7d4c-4d3e-aefe-fc9fb9485ebb" name="Default Changelist" comment="Breeze 1.0 BETA - &#10;Improved visual feel.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="20451bb0-7d4c-4d3e-aefe-fc9fb9485ebb" name="Default Changelist" comment="Breeze 1.0.1 BETA - Bootstrap Implementation &gt;&gt;&gt; 40%." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +133,7 @@
       <workItem from="1649749185424" duration="3366000" />
       <workItem from="1649962829306" duration="1231000" />
       <workItem from="1650022702765" duration="2754000" />
-      <workItem from="1650048722002" duration="6456000" />
+      <workItem from="1650048722002" duration="6805000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1612281206400</created>
@@ -196,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647779742990</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Breeze 1.0.1 BETA - Bootstrap Implementation &gt;&gt;&gt; 40%.">
+      <created>1650055967690</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650055967690</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +225,8 @@
     <MESSAGE value="Windy Beta 0.95" />
     <MESSAGE value="Windy(Beta) 0.9.9.&#10;&#10;-&gt;Working as intended.&#10;-&gt;Some places are not supported due to support limitation from the Weather Service Provider.&#10;-&gt;There MIGHT be some bugs, that's why its a Beta version.&#10;&#10;This project is now ready for deployment." />
     <MESSAGE value="Breeze 1.0 BETA - &#10;Improved visual feel." />
-    <option name="LAST_COMMIT_MESSAGE" value="Breeze 1.0 BETA - &#10;Improved visual feel." />
+    <MESSAGE value="Breeze 1.0.1 BETA - Bootstrap Implementation &gt;&gt;&gt; 40%." />
+    <option name="LAST_COMMIT_MESSAGE" value="Breeze 1.0.1 BETA - Bootstrap Implementation &gt;&gt;&gt; 40%." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
