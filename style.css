@@ -1,26 +1,35 @@
-/* Windy 0.4 Initial */
+/* Breeze 1.0.1 BETA */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins|Raleway:wght@100;200;300;400;500;600&display=swap');
 
 body, html{
 	height: 100%;
+	width: 100%;
 	margin: 0;
+	padding: 0;
+	overflow: hidden;
 	font-family: 'Poppins', sans-serif;
+	position: relative;
 }
 
 .bg{
 	background-image: url("res/images/bg-default.jpg");
 	height: 100%;
+	width: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	backdrop-filter: blur(10px);
 }
 
+.container-fluid{
+	padding: 0;
+}
+
 
 @supports (backdrop-filter: none) {
 	.blur {
-		backdrop-filter: blur(20px);
+		backdrop-filter: blur(25px);
 		height: 100%;
 	}
 }
@@ -33,21 +42,21 @@ body, html{
 	transform: translate(-50%, -50%);
 }
 
-.search{
+.searchBar{
 	position: absolute;
-	top: 16%;
+	top: 15%;
 	left: 50%;
 }
 
-.search > form {
+.searchBar > form {
 	transform: translateX(-50%);
 	position: relative;
 	display: inline-block;
 }
 
-.search > form > div > input{
+.searchBar > form > div > input{
 	float: left;
-	height: 45px;
+	height: 47px;
 	width: 280px;
 	border-radius: 13px 0 0 13px;
 	padding-left: 25px;
@@ -58,23 +67,23 @@ body, html{
 	color: rgb(0, 34, 230)
 }
 
-.search > form > div > input[type="text"]{
+.searchBar > form > div > input[type="text"]{
 	font-size: 22px;
 }
 
-.search > form > div > input:focus{
+.searchBar > form > div > input:focus{
 	outline: none;
 	border: none;
 }
 
-.search > form > div > input::placeholder{
+.searchBar > form > div > input::placeholder{
 	font-family: 'Raleway', sans-serif;
 	font-size: 22px;
 	font-weight: 300;
 	color: rgb(239, 239, 239);
 }
 
-.search > form > div > button{
+.searchBar > form > div > button{
 	height: 47px;
 	border: none;
 	background: rgba(299, 299, 299, 0.4);
@@ -85,18 +94,18 @@ body, html{
 	border-radius: 0 13px 13px 0;
 }
 
-.search > form > div > button:focus{
+.searchBar > form > div > button:focus{
 	outline: none;
 	border: none;
 }
 
-.search > form > div > button > a{
+.searchBar > form > div > button > a{
 	font-size: 21px;
 	padding: 7px;
 	color: rgb(236, 236, 236);
 }
 
-.search > form > div > button > a:hover{
+.searchBar > form > div > button > a:hover{
 	color: rgb(21, 56, 255);
 	cursor: pointer;
 }
@@ -135,83 +144,89 @@ body, html{
 	color: #ffffff;
 }
 
-.container{
+.mainWidget{
 	z-index: 1;
-	top: 50%;
+	top: 42%;
 	left: 50%;
 	position: absolute;
 	transform: translate(-50%, -50%);
+	width: 30%;
+	height: 28%;
+	border-radius: 30px;
+	background: rgba(299, 299, 299, 0.2);
 }
 
-.widget
-{
-	width: 400px;
-	height: 200px;
-	border-radius: 20px;
-	background: rgba(299, 299, 299, 0.4);
+.mainWidget > .mainContainer{
+	position: relative;
+	width: 100%;
+	height: 100%;
 }
 
-.widget .left{
-	position: absolute;
-	left: 0;
-	width: 200px;
+.mainWidget > .mainContainer > .row{
+	height: 78%;
 }
 
-.widget .right{
-	position: absolute;
-	right: 0;
-	width: 200px;
-	color: #fff;
-	margin: 50px 0;
+.mainWidget .mainDescription{
+	left: 6%;
+	width: 42%;
+	height: max-content;
 }
 
 .icon{
 	width: 75%;
 	margin-bottom: -30px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .weather-status{
+	font-size: 1.3em;
+	width: max-content;
 	color: #fff;
 	text-align: center;
 	margin-top: 0;
+	text-shadow: 1px 1px 5px #707070;
 }
 
-.widget .right .city{
-	font-size: 1em;
-	text-align: center;
+.mainWidget .mainInfo{
+	top: 33%;
+	left: 7.5%;
+	width: 45%;
+	height: max-content;
+	color: #fff;
+	padding-left: 0;
+}
+
+.mainWidget .mainInfo .city{
+	font-size: 1.5em;
 	margin: 0;
 	text-shadow: 1px 1px 5px #707070;
 }
 
-.widget .right .degree{
-	font-size: 3em;
+.mainWidget .mainInfo .degree{
+	font-size: 3.5em;
 	font-weight: bold;
-	text-align: center;
 	margin: 0;
 	text-shadow: 1px 1px 5px #707070;
 }
 
-.widget .bottom{
-	width: 100%;
-	position: absolute;
-	bottom: 10px;
-	display: flex;
+.mainWidget .extendedInfo{
+	font-family: Comfortaa;
+	width: 80%;
+	height: max-content !important;
 	justify-content: center;
 	color: #fff;
 }
 
-.widget .bottom div{
-	margin: 5px 10px 5px 10px;
+.mainWidget .extendedInfo div{
 	text-align: center;
-	line-height: 100%;
-	font-size: 0.83em;
+	line-height: 130%;
+	font-size: 0.9em;
 	text-shadow: 1px 1px 5px #707070;
 }
 
-.bottom div span{
+.extendedInfo div span{
 	display: block;
 }
 
@@ -239,7 +254,7 @@ h1{
 
 .container2{
     
-	top: 74%;
+	top: 70%;
 	left: 40.5%;
 	position: absolute;
 	transform: translate(-50%, -50%);
@@ -248,13 +263,13 @@ h1{
 .widget2{
 	width: 125px;
 	height: 160px;
-	border-radius: 20px;
-	background: rgba(299, 299, 299, 0.4);
+	border-radius: 25px;
+	background: rgba(299, 299, 299, 0.12);
 }
 
 .container3{
     
-	top: 74%;
+	top: 70%;
 	left: 50%;
 	position: absolute;
 	transform: translate(-50%, -50%);
@@ -263,13 +278,13 @@ h1{
 .widget3{
 	width: 125px;
 	height: 160px;
-	border-radius: 20px;
-	background: rgba(299, 299, 299, 0.4);
+	border-radius: 25px;
+	background: rgba(299, 299, 299, 0.12);
 }
 
 .container4{
     
-	top: 74%;
+	top: 70%;
 	left: 59.5%;
 	position: absolute;
 	transform: translate(-50%, -50%);
@@ -278,8 +293,8 @@ h1{
 .widget4{
 	width: 125px;
 	height: 160px;
-	border-radius: 20px;
-	background: rgba(299, 299, 299, 0.4);
+	border-radius: 25px;
+	background: rgba(299, 299, 299, 0.12);
 }
 
 

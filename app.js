@@ -1,4 +1,4 @@
-/*WINDY 0.9.9 Beta*/
+/*Breeze Beta*/
 
 let userlocation = {
     autocomplete: false
@@ -92,6 +92,7 @@ async function pushIntoArray(data){
 function update(data){
     console.log(data);
     document.getElementById('state').innerHTML = data.current_data.weather[0].main;
+    if(data.current_data.weather[0].main=='Clouds'){}
     document.getElementById('city').innerHTML = data.current_data.name;
     document.getElementById('temp').innerHTML = Math.floor(data.current_data.main.temp) + "&#176;c";
     document.getElementById('wind_speed').innerHTML = Math.floor(data.current_data.wind.speed) + " kmph";
