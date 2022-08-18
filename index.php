@@ -13,7 +13,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <!--Google Font-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto:700|Poppins|Poppins:300|Raleway:300|Comfortaa|Satisfy|Quicksand|Poiret One|Raleway:500">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Roboto:700|Poppins|Poppins:300|Raleway:300|Comfortaa|Satisfy|Quicksand|Poiret One|Raleway:500|Plus+Jakarta+Sans|Overpass+Mono:700|VT323">
 
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/df1fe34d47.js" crossorigin="anonymous"></script>
@@ -28,7 +28,7 @@
         <div class="blur"></div>
     </div>
     <div class="header">
-        <h1>Breeze</h1>
+        <h1 style="font-size: 60px">Breeze</h1>
 	</div>
 
     <div class="container-fluid">
@@ -64,45 +64,49 @@
         </div>
             <!-- End of weather widget -->
 
-
         <div class="cards container-fluid">
-            <div class="container2">
-                <!-- Weather Widget -->
-                <div class="widget2">
-                    <div class="mid">
-                        <h6 id="day_1">Wednesday</h6>
-                        <div id="maxtemp_1">13&#176;c</div>
-                        <div id="mintemp_1">13&#176;c</div>
-                        <div id="state_1" >Clear</div>
-                    </div>
+            <div class="row mx-auto">
+                <div class="col-2">
+                    <h6 id="day_1" class="mx-auto cardsDayTitle">Wednesday</h6>
+                    <div id="maxtemp_1" class="cardsInfo">13&#176;c</div>
+                    <div id="mintemp_1" class="cardsInfo">13&#176;c</div>
+                    <div id="state_1" class="cardsInfo">Clear</div>
                 </div>
-            </div>
-            <div class="container3">
-                <!-- Weather Widget -->
-                <div class="widget3">
-                    <div class="mid1">
-                        <h6 id="day_2">Thursday</h6>
-                        <div id="maxtemp_2">11&#176;c</div>
-                        <div id="mintemp_2">11&#176;c</div>
-                        <div id="state_2">Clear</div>
-                    </div>
+                <div class="col-2">
+                    <h6 id="day_1" class="mx-auto cardsDayTitle">Thursday</h6>
+                    <div id="maxtemp_1" class="cardsInfo">13&#176;c</div>
+                    <div id="mintemp_1" class="cardsInfo">13&#176;c</div>
+                    <div id="state_1" class="cardsInfo">Clear</div>
                 </div>
-            </div>
-            <div class="container4">
-                <!-- Weather Widget -->
-                <div class="widget4">
-                    <div class="mid2">
-                        <h6 id="day_3">Friday</h6>
-                        <div id="maxtemp_3">15&#176;c</div>
-                        <div id="mintemp_3">15&#176;c</div>
-                        <div id="state_3">Cloudy</div>
-                    </div>
+                <div class="col-2">
+                    <h6 id="day_1" class="mx-auto cardsDayTitle">Friday</h6>
+                    <div id="maxtemp_1" class="cardsInfo">13&#176;c</div>
+                    <div id="mintemp_1" class="cardsInfo">13&#176;c</div>
+                    <div id="state_1" class="cardsInfo">Clear</div>
+                </div>
+                <div class="col-2">
+                    <h6 id="day_1" class="mx-auto cardsDayTitle">Saturday</h6>
+                    <div id="maxtemp_1" class="cardsInfo">13&#176;c</div>
+                    <div id="mintemp_1" class="cardsInfo">13&#176;c</div>
+                    <div id="state_1" class="cardsInfo">Clear</div>
+                </div>
+                <div class="col-2">
+                    <h6 id="day_1" class="mx-auto cardsDayTitle">Sunday</h6>
+                    <div id="maxtemp_1" class="cardsInfo">13&#176;c</div>
+                    <div id="mintemp_1" class="cardsInfo">13&#176;c</div>
+                    <div id="state_1" class="cardsInfo">Clear</div>
+                </div>
+                <div class="col-2">
+                    <h6 id="day_1" class="mx-auto cardsDayTitle">Monday</h6>
+                    <div id="maxtemp_1" class="cardsInfo">13&#176;c</div>
+                    <div id="mintemp_1" class="cardsInfo">13&#176;c</div>
+                    <div id="state_1" class="cardsInfo" >Clear</div>
                 </div>
             </div>
         </div>
 
         <div class="footer">
-            <h2>Breeze</h2>
+            <h4>Breeze &#169; 2022</h4>
         </div>
     </div>
 	

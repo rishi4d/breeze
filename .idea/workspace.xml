@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20451bb0-7d4c-4d3e-aefe-fc9fb9485ebb" name="Default Changelist" comment="Breeze 1.0.1 BETA - Bootstrap Implementation &gt;&gt;&gt; 40%." />
+    <list default="true" id="20451bb0-7d4c-4d3e-aefe-fc9fb9485ebb" name="Default Changelist" comment="Breeze 1.0.1 BETA - Bootstrap Implementation &gt;&gt;&gt; 40%.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +137,10 @@
       <workItem from="1649749185424" duration="3366000" />
       <workItem from="1649962829306" duration="1231000" />
       <workItem from="1650022702765" duration="2754000" />
-      <workItem from="1650048722002" duration="6805000" />
+      <workItem from="1650048722002" duration="10703000" />
+      <workItem from="1650224725201" duration="1188000" />
+      <workItem from="1650307070935" duration="9695000" />
+      <workItem from="1652799591383" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1612281206400</created>
@@ -198,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650055967690</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Breeze 1.0.1 BETA - Bootstrap Implementation &gt;&gt;&gt; 40%.">
+      <created>1650056052205</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650056052205</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

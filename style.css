@@ -1,7 +1,5 @@
 /* Breeze 1.0.1 BETA */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins|Raleway:wght@100;200;300;400;500;600&display=swap');
-
 body, html{
 	height: 100%;
 	width: 100%;
@@ -35,9 +33,9 @@ body, html{
 }
 
 .header{
-    top: 8%;
+	font-family: 'VT323';
+	top: 8%;
 	left: 50%;
-	font-size: larger;
     position: absolute;
 	transform: translate(-50%, -50%);
 }
@@ -151,7 +149,7 @@ body, html{
 	position: absolute;
 	transform: translate(-50%, -50%);
 	width: 30%;
-	height: 28%;
+	height: 30%;
 	border-radius: 30px;
 	background: rgba(299, 299, 299, 0.2);
 }
@@ -163,7 +161,7 @@ body, html{
 }
 
 .mainWidget > .mainContainer > .row{
-	height: 78%;
+	height: 76%;
 }
 
 .mainWidget .mainDescription{
@@ -173,7 +171,7 @@ body, html{
 }
 
 .icon{
-	width: 75%;
+	width: 80%;
 	margin-bottom: -30px;
 	display: block;
 	margin-left: 0;
@@ -190,7 +188,7 @@ body, html{
 }
 
 .mainWidget .mainInfo{
-	top: 33%;
+	top: 35%;
 	left: 7.5%;
 	width: 45%;
 	height: max-content;
@@ -212,7 +210,7 @@ body, html{
 }
 
 .mainWidget .extendedInfo{
-	font-family: Comfortaa;
+	font-family: 'Plus Jakarta Sans';
 	width: 80%;
 	height: max-content !important;
 	justify-content: center;
@@ -237,7 +235,9 @@ h1{
     text-align: center;
     padding: 0 0 0 0;
 }
+
 .footer{
+	font-family: 'Plus Jakarta Sans';
 	top: 90%;
 	left: 50%;
     color: #fff;
@@ -245,15 +245,64 @@ h1{
     bottom: 150px;
     position: absolute;
 	line-height: 100%;
-	font-size: 8px;
 	text-shadow: 1px 1px 5px #707070;
 	transform: translate(-50%, -50%);
 }
 
+.cards{
+	top: 70%;
+	width: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	text-shadow: 1px 1px 5px #707070;
+}
+
+.cards .col-2{
+	border-radius: 20px;
+	background: rgba(299, 299, 299, 0.12);
+	width: 10%;
+	margin: 0 1%;
+}
+
+.cards .cardsInfo{
+	width: min-content;
+	background-color: #ececec;
+}
+
+.cards .cardsDayTitle{
+	padding-top: 10px;
+	width: min-content;
+	background-color: #ececec;
+}
+
+
+
+
+
+
+
+.widget4 .mid2 div{
+	text-align: center;
+}
+
+.widget4 > .mid2 > h6{
+	padding-top: 35px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
 
 
 .container2{
-    
 	top: 70%;
 	left: 40.5%;
 	position: absolute;
